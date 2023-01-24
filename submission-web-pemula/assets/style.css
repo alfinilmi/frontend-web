@@ -1,0 +1,245 @@
+/* Color Palette
+395144
+4E6C50
+AA8B56
+F0EBCE 
+*/
+@font-face { font-family: BritannicBold; src: url(font/BRITANIC.TTF); }
+@font-face { font-family: CentaurReg; src: url(font/CENTAUR.TTF); }
+@font-face { font-family: Calibri; src: url(font/calibri.ttf); }
+@font-face { font-family: CalibriBold; src: url(font/calibrib.ttf); }
+
+body{
+	background-color: #F0EBCE;
+	margin: 0;
+	/*overflow: hidden;*/
+}
+
+.clear{
+	float: none;
+	clear: both;
+}
+
+.center{
+	width: 92%;
+	margin: 0 auto;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*START HEADER*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #AA8B56;
+}
+
+nav ul img{
+	width: 50px;
+	margin: 5px 0;
+	padding-top: 2px;
+}
+
+nav li {
+	float: right;
+}
+
+nav li a {
+	font-family: BritannicBold;
+	text-transform: uppercase;
+	display: block;
+	color: white;
+	text-align: center;
+
+	padding: 24px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-shadow: 2px rgba(0,0,0,0.2);
+	color: #395144;
+	transition: 0.3s;
+}
+/*END HEADER*/
+
+/*START BANNER*/
+#banner{
+	background: url("banner-gradient.jpg") no-repeat center;
+	background-size: cover;
+	height: 550px;
+	font-family: "CentaurReg";
+}
+
+#banner h1{
+	font-size: 72px;
+	margin: 0 auto;
+	padding: 200px 0;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+
+#banner h3{
+	font-size: 24px;
+	margin-top: -200px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+/*END BANNER*/
+
+/*START MAIN*/
+main{
+	font-family: Calibri;
+}
+
+.content-intro{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content-intro p{
+	padding: 50px 0;
+	font-size: 24px;
+	text-align: center;
+	font-family: CentaurReg;
+}
+
+aside {
+  width: 25%;
+  float: right;
+  border-radius: 145px 145px 20px 20px;
+  background-color: #395144;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+aside img{
+	width: 80%;
+	border-radius: 100%;
+	display: block;
+	margin-top: 35px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 20px;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aside-text{
+	padding-bottom: 20px;
+}
+
+aside p{
+	text-align: center;
+	font-size: 18px;
+	margin: 5px;
+	font-family: Calibri;
+	text-shadow: 1px 1px 5px #000;
+}
+
+article{
+	margin-bottom: 50px;
+}
+
+.content-bio h1{
+	font-size: 54px;
+	font-family: CalibriBold;
+	margin: 20px 0;
+	color: #395144;
+}
+
+.content-bio h2{
+	font-size: 32px;
+	font-family: CalibriBold;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: #395144;
+}
+
+#biodata table{
+	width: 70%;
+	height: 300px;
+	font-size: 24px;
+}
+
+#biodata td{
+	width: 25%;
+	font-size: 24px;
+	vertical-align: top;
+	font-weight: bold;
+}
+#biodata .td-kecuali{
+	width: 3%;
+	font-size: 24px;
+}
+
+#biodata a{
+	text-decoration: none;
+	color: #395144;
+	font-weight: bold;
+}
+
+#biodata a:hover{
+	text-decoration: underline;
+}
+
+#pendidikan table{
+	width: 100%;
+	font-size: 20px;
+}
+
+#pendidikan th{
+	padding-bottom: 20px;
+}
+
+#pendidikan tr{
+	height: 50px;
+}
+
+#pendidikan th, #pendidikan td{
+	border-bottom: 1.5px solid #ccc;
+}
+
+#pengalaman table{
+	width: 100%;
+	font-size: 20px;
+}
+
+#pengalaman tr{
+	height: 50px;
+}
+
+#pengalaman th{
+	padding-bottom: 20px;
+}
+
+#pengalaman th, #pengalaman td{
+	border-bottom: 1.5px solid #ccc;
+}
+/*END MAIN*/
+
+/*START FOOTER*/
+footer{
+	margin: 0 auto;
+	padding: 5px 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #AA8B56;
+}
+
+footer p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	text-align: center;
+}
+/*END FOOTER*/
